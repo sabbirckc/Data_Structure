@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: darkgray;
+    color: white;
+}
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;  
+}
+.span{
+    color: red;
+}
+.benner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.title-benner{
+    font-size: 80px;
+    font-weight: bold;
+}
+.description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.btn{
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+.btn-discover{
+    background-color: red;
+    color: white;
+}
+.btn-hire{
+    color: red;
+}
+.service-container{
+    width: 100%;
+    height: 120vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.service-list{
+    color: gray;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.service-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.service-description{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.list{
+    padding: 20px;
+}
+.author-details{
+    display: flex;
+    align-items: center;
+}
+.author-img-desc{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid red;
+}
+.author-img{
+    width: 30%;
+    height: 50%;
+    border-radius: 100px;
+}
+.ceo{
+    padding-left: 20px;
+}
+.btn-details{
+    border-radius: 20px;
+}
+.more-details{
+    padding: 40px;
+}
+.services{
+    padding: 50px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 5px 5px 8px gray;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 8px;
+}
+.service-icon{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service-left-container{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.service-right-container{
+    padding-top: 35px;
+    margin-right: 30px;
+}
+.phone-icon{
+    width: 100px;
+    padding: 20px;
+}
+.phone-call{
+    display: flex;
+}
+.appoinment-section{
+    display: flex;
+    width: 75%;
+    background-color: red;
+    padding: 40px;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: -100px;
+}
+.number{
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+.appoinment-parragraph{
+    padding-left: 40px;
+    font-size: 20px;
+    width: 70%;
+}

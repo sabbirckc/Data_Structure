@@ -1,0 +1,48 @@
+.One ul{
+    display:flex;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: rgb(169, 232, 231);
+    font-size: 30px;
+    font-weight:500;
+    color: black;
+}
+.bang{
+    font-weight: 900;
+    font-size: 50px;
+}
+.photo{
+    height: 300px;
+}
+.mainsection{
+    display: flex;
+}  
+.porom{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0%;
+}
+.two{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product{
+    font-size: 20px;
+}
+.way{
+    font-size: 20px;
+    font-weight: 600;
+}
+.full{
+    margin: 80px;
+}
+.tanvir{
+    color: maroon;
+}
+.last{
+    color: brown;
+}
+
